@@ -2,23 +2,19 @@
 
 A sample ecommerce website where users can create an account, browser items, add to cart and checkout. The main technologies used are React, Redux, Sequelize, Express and PostgreSQL.
 
-## Getting Started
+## View Project
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+Run the following commands to set up and preview project on http://localhost:8080/
 
-Run `npm install`
-createdb boilermaker
-createdb boilermaker-test
-
-Running `npm run start-dev` will make great things happen!
-
-If you want to run the server and/or `webpack` separately, you can also
-`npm run start-server` and `npm run build-client`.
+* `npm install`
+* createdb upperrestside
+* createdb upperrestside-test
+* npm run start-dev
 
 ## Running the tests
 
-* By default, running `npm test` will use `boilermaker-test`, while
-  regular development uses `boilermaker`
+* By default, running `npm test` will use `upperrestside-test`, while
+  regular development uses `upperrestside`
 
 ## Contributors
 

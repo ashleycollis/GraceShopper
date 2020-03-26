@@ -9,7 +9,8 @@ import {
   AllClothes,
   SingleClothingItem,
   Cart,
-  UserProfile
+  UserProfile,
+  HomePage
 } from './components'
 
 import {me} from './store'
@@ -28,6 +29,7 @@ class Routes extends Component {
     return (
       <Switch>
         {/* Routes placed here are available to all visitors */}
+        <Route exact path="/" component={HomePage} />
         <Route path="/items/:id" component={SingleClothingItem} />
         <Route path="/login" component={Login} />
         <Route path="/signup" component={Signup} />
@@ -40,8 +42,8 @@ class Routes extends Component {
             <Route path="/profile" component={UserProfile} />
           </Switch>
         )}
-        {/* Displays our Login component as a fallback */}
-        <Route component={Login} />
+        {/* Displays our Login component as a fallback
+        <Route component={Login} /> */}
       </Switch>
     )
   }

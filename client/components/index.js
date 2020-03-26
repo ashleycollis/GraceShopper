@@ -6,6 +6,7 @@
 export {default as Navbar} from './navbar'
 export {default as SingleClothingItem} from './clothing-item'
 export {default as UserHome} from './user-home'
+export {default as HomePage} from './HomePage'
 export {Login, Signup} from './auth-form'
 export {AllClothes} from './all-clothes'
 export {Cart} from './cart'

@@ -8,7 +8,7 @@ const Navbar = ({handleClick, isLoggedIn}) => (
   <div>
     <h1>
       <Link to="/home" id="title">
-        The UpperRestSide
+        The Upper Rest Side
       </Link>
     </h1>
     <nav id="navBar">

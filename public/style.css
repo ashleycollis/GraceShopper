@@ -1,7 +1,6 @@
 body {
   font-family: sans-serif;
-  background-color: #c5caeb;
-  backface-visibility: ;
+  background-image: url('./images/homebg.png');
 }
 
 a {
