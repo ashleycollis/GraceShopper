@@ -1,13 +1,6 @@
 # GraceShopper
 
-Our group of Fullstack students created a sample ecommerce website to combine our React, Redux, Sequelize, Express and other web developmen skills. Graceshopper has the functionality for users to sign up for an account, view items, add to cart and checkout in a click of a button.
-
-## Collaborators
-
-Afia Siaw
-Ashley Collis-Burgess
-Nayyif Oussamatou
-Simon Gutierrez
+A sample ecommerce website where users can create an account, browser items, add to cart and checkout. The main technologies used are React, Redux, Sequelize, Express and PostgreSQL.
 
 ## Getting Started
 
@@ -27,9 +20,12 @@ If you want to run the server and/or `webpack` separately, you can also
 * By default, running `npm test` will use `boilermaker-test`, while
   regular development uses `boilermaker`
 
-## Deployment Link
+## Contributors
 
-https://theupperrestsidegraceshopper.herokuapp.com/
+Ashley Collis-Burgess
+Afia Siaw
+Simon Gutierrez
+Nayyif Oussamatou
 
 ## License
 
