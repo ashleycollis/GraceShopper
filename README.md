@@ -1,4 +1,4 @@
-# GraceShopper
+# TheUpperRestSide
 
 A sample ecommerce website where users can create an account, browser items, add to cart and checkout. The main technologies used are React, Redux, Sequelize, Express and PostgreSQL.
 
@@ -18,10 +18,10 @@ Run the following commands to set up and preview project on http://localhost:808
 
 ## Contributors
 
-Ashley Collis-Burgess
-Afia Siaw
-Simon Gutierrez
-Nayyif Oussamatou
+Ashley Collis-Burgess<br>
+Afia Siaw<br>
+Simon Gutierrez<br>
+Nayyif Oussamatou<br>
 
 ## License
 
