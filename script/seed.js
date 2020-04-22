@@ -28,86 +28,86 @@ async function seed() {
 
   const clothes = await Promise.all([
     Clothes.create({
-      name: 'Crop Top',
-      category: 'Shirts',
-      price: 20,
+      name: 'Pink Passion',
+      category: 'Dress',
+      price: 400,
       size: 4,
       inventory: 1000,
       imageUrl:
-        'https://www.jcrew.com/s7-img-facade/AB836_KA1562?fmt=jpeg&qlt=90,0&resMode=sharp&op_usm=.1,0,0,0&crop=0,0,0,0&wid=2000&hei=2000'
+        'https://images.neimanmarcus.com/ca/2/product_assets/T/Y/A/2/2/NMTYA22_mz.jpg'
     }),
     Clothes.create({
-      name: 'Mom Jeans',
-      category: 'Pants',
-      price: 50,
+      name: 'Corporate Blue',
+      category: 'Dress',
+      price: 1500,
+      size: 4,
+      inventory: 1000,
+      imageUrl:
+        'https://i.pinimg.com/564x/ed/75/8b/ed758bf72433c2a316a5f40bdb720352.jpg'
+    }),
+    Clothes.create({
+      name: 'Gucci Cuff Gown ',
+      category: 'Shirts',
+      price: 8000,
       size: 2,
       inventory: 1000,
       imageUrl:
-        'https://lp2.hm.com/hmgoepprod?set=source[/4c/09/4c09c19db513f23539314390c3388969fe34b5e4.jpg],origin[dam],category[ladies_jeans_loose],type[LOOKBOOK],res[m],hmver[1]&call=url[file:/product/main]'
+        'https://images.neimanmarcus.com/ca/1/product_assets/B/5/D/A/D/NMB5DAD_mz.jpg'
     }),
     Clothes.create({
-      name: 'Baby Doll Top',
-      category: 'Shirts',
-      price: 30.0,
-      size: 10,
+      name: 'Shimmery Gown',
+      category: 'Dress',
+      price: 400.0,
+      size: 4,
       inventory: 1000,
       imageUrl:
-        'https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcSl7dvpPAyuyMtIS-PLWGBlkjv8mjthMpl0HLppEIUoh8mpUW4FzDqub44hHP_Mjmd-Fw1V90CTbd8KW3VByzfoV3ZtAyZHSEQGBD0oqef3&usqp=CAE'
+        'https://images.neimanmarcus.com/ca/1/product_assets/B/5/8/Y/A/NMB58YA_mz.jpg'
     }),
     Clothes.create({
-      name: 'Shimmery Top',
-      category: 'Shirts',
-      price: 40.0,
-      size: 8,
+      name: 'Busy Bombshell',
+      category: 'Dress',
+      price: 300.0,
+      size: 4,
       inventory: 1000,
       imageUrl:
-        'https://images-na.ssl-images-amazon.com/images/I/711xvTCFZqL._UX679_.jpg'
+        'https://images.neimanmarcus.com/ca/4/product_assets/T/Y/A/S/8/NMTYAS8_mz.jpg'
     }),
     Clothes.create({
-      name: 'Yoga Pants',
-      category: 'Pants',
-      price: 35.0,
-      size: 10,
+      name: 'Altuzarra Shimmery',
+      category: 'Dress',
+      price: 3950.0,
+      size: 4,
       inventory: 1000,
       imageUrl:
-        'https://media.kohlsimg.com/is/image/kohls/2094188?wid=1000&hei=1000&op_sharpen=1'
+        'https://images.neimanmarcus.com/ca/5/product_assets/B/4/U/V/C/NMB4UVC_bz.jpg'
     }),
     Clothes.create({
-      name: 'Pencil Pants',
-      category: 'Pants',
-      price: 55.0,
+      name: 'Peacock Gown',
+      category: 'Dress',
+      price: 5000,
       size: 2,
-      inventory: 1000,
-      imageUrl:
-        'https://i2.wp.com/www.justpinkaboutit.com/wp-content/uploads/2018/07/New-Pink-Double-Striped-Pants-High-Waist-Pencil-pants-Women-stringyselvedge-summer-style-sexy-pants-female-3.jpg?fit=810%2C810&ssl=1'
-    }),
-    Clothes.create({
-      name: 'Jump Man Snapback',
-      category: 'hat',
-      price: 30.0,
-      size: 10,
       inventory: 200,
       imageUrl:
-        'https://images.footlocker.com/is/image/EBFL2/A2118010_a1?wid=640&hei=640&fmt=png-alpha'
+        'https://images.neimanmarcus.com/ca/1/product_assets/T/Z/E/5/3/NMTZE53_mz.jpg'
     }),
     Clothes.create({
-      name: 'Knicks Snapback',
-      category: 'hat',
-      price: 20.0,
-      size: 10,
+      name: 'Diamond Jumper',
+      category: 'Dress',
+      price: 1000,
+      size: 2,
       inventory: 100,
       imageUrl:
-        'https://fanatics.frgimages.com/FFImage/thumb.aspx?i=/productimages/_2564000/altimages/ff_2564209alt1_full.jpg&w=325'
+        'https://cdn.shopify.com/s/files/1/0092/1472/2106/products/Silver-Nude-V-Neck-Jumpsuit-Luxury-Evening-Dresses-2019-Sleeveless-Sequined-Sexy-Evening-Gowns-Serene-Hill_800x.jpg?v=1572010762'
     }),
 
     Clothes.create({
-      name: 'Nets Snapback',
-      category: 'hat',
-      price: 30.0,
-      size: 10,
+      name: 'Magnificent Midnight',
+      category: 'dress',
+      price: 900.0,
+      size: 2,
       inventory: 100,
       imageUrl:
-        'https://fanatics.frgimages.com/FFImage/thumb.aspx?i=/productimages/_1445000/altimages/FF_1445933ALT1_full.jpg&w=325'
+        'https://www.neimanmarcus.com/product_assets/T/0/9/6/F/NMT096F_mk.jpg'
     })
   ])
 

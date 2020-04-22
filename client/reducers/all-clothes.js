@@ -10,6 +10,7 @@ const gotAllClothes = clothes => {
 }
 
 export const fetchAllClothes = () => {
+  console.log('fetched')
   return async dispatch => {
     const clothes = await axios.get('/api/clothes')
     dispatch(gotAllClothes(clothes))

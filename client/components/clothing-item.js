@@ -13,14 +13,15 @@ class ClothingItem extends Component {
 
   render() {
     return (
-      <div id="clothesContainer">
+      <div className="item-container">
         <img className="clothesImage" src={this.props.item.imageUrl} />
-        <div id="content">
+        <div>
           <p>Product: {this.props.item.name}</p>
           <p>Price: ${this.props.item.price}</p>
           <p>Size: {this.props.item.size}</p>
           <p>
             <button
+              className="add-cart"
               type="button"
               onClick={() => {
                 this.props.user !== 'guest'

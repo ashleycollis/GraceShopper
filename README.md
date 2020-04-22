@@ -1,4 +1,4 @@
-# TheUpperRestSide
+# The Upper REST Side
 
 A sample ecommerce website where users can create an account, browser items, add to cart and checkout. The main technologies used are React, Redux, Sequelize, Express and PostgreSQL.
 

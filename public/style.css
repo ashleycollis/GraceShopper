@@ -1,11 +1,19 @@
 body {
-  font-family: sans-serif;
   background-image: url('./images/homebg.png');
+  font-family: 'Roboto', sans;
 }
 
 a {
   text-decoration: none;
   text-align: center;
+}
+
+.login {
+  margin: auto;
+  width: 350px;
+  border: 5px dotted black;
+  padding: 20px;
+  background-color: #84b082;
 }
 
 label {
@@ -30,10 +38,8 @@ form div {
   margin: 16px;
 }
 
-#content {
-  flex-grow: 1;
-  align-self: flex-end;
-  font-family: 'Trebuchet MS', Helvetica, sans-serif;
+.item-container {
+  background-color: #ffebcd;
 }
 
 #clothesContainer {
@@ -73,14 +79,6 @@ h1 {
   justify-content: space-around;
 }
 
-#itemDisplayed {
-}
-
-/* #itemDisplayed:hover {
-  flex-grow: 1;
-
-} */
-
 #quantity {
   width: 30px;
 }
@@ -95,10 +93,15 @@ h1 {
   flex-direction: column;
 }
 
-#profileChild {
-  /* position: absolute;
-  left: 250px;
-  text-align: center; */
-  /* width: 50%; */
-  /* height: 20px; */
+.menu {
+  background-color: 'black';
+  margin: 0px;
+  overflow: hidden;
+}
+
+.add-cart {
+  padding: 10px 70px;
+  border: none;
+  background-color: #000000;
+  color: #fff8dc;
 }

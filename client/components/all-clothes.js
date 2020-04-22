@@ -4,10 +4,6 @@ import {Link} from 'react-router-dom'
 import {fetchAllClothes} from '../reducers/all-clothes'
 
 class Clothes extends Component {
-  componentDidMount() {
-    this.props.fetchAllClothes()
-  }
-
   render() {
     let clothes = this.props.clothes.data
     return (
@@ -35,8 +31,5 @@ const mapState = state => ({
   clothes: state.clothes
 })
 
-const mapDispatch = dipatch => ({
-  fetchAllClothes: () => dipatch(fetchAllClothes())
-})
-
-export const AllClothes = connect(mapState, mapDispatch)(Clothes)
+const AllClothes = connect(mapState)(Clothes)
+export default AllClothes
